@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sokha Kim",
+      "email": "sokha@example.com",
+      "passwordHash": "$2a$10$EmTx2aTOYc8heozfdD0aouAhVmmULtGRSV//ZWcNjeCjtFYc3uisS"
+    },
+    {
+      "id": 2,
+      "name": "VireakPheung123kdet",
+      "email": "kdeyklor123@gmail.com",
+      "passwordHash": "$2a$10$Pgro/HGI8Ee5J86I4bRXGe5DyHHE7VBs1Xutn9YafTAhSF/OOmVsG"
+    },
+    {
+      "id": 3,
+      "name": "VireakPheung123kdettest",
+      "email": "kdettest@gmail.com",
+      "passwordHash": "$2a$10$53fcbiyIr4ZFzAzoLQNjQ.5ibbR1mHgErzL4L1O3y9T9p0D6gtG1m"
+    },
+    {
+      "id": 4,
+      "name": "VireakPheung123kdettest",
+      "email": "heryanhery@gmail.com",
+      "passwordHash": "$2a$10$f/PtJ0ZXigXhjnMYepQO3eJD296rEaAT.69RlPMym5ePPzRvj0P.q"
+    },
+    {
+      "id": 5,
+      "name": "VireakPheung123kdettest",
+      "email": "kdmbvanhplix@gmail.com",
+      "passwordHash": "$2a$10$aRMpJiKrd81z1JgiMnpgIeYwkXIqGnYHpjo/3Rut2AAWmvMkYB.q6"
+    },
+    {
+      "id": 6,
+      "name": "Mae Vea",
+      "email": "tpeajmrhxanh@gmail.com",
+      "passwordHash": "$2a$10$CRR7kvoHcXo22f4w6v6/MegfrzTqAyA2.UAdwUyeZa7GZdy5Yu9Yi"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "savings",
+      "currency": "USD",
+      "number": "4821",
+      "balance": 1248050,
+      "isDefault": true
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "current",
+      "currency": "USD",
+      "number": "7305",
+      "balance": 321500,
+      "isDefault": false
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "type": "savings",
+      "currency": "KHR",
+      "number": "1190",
+      "balance": 25600000,
+      "isDefault": false
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "type": "current",
+      "currency": "KHR",
+      "number": "6642",
+      "balance": 4180000,
+      "isDefault": false
+    },
+    {
+      "id": 5,
+      "userId": 6,
+      "type": "savings",
+      "currency": "USD",
+      "number": "9662",
+      "balance": 100000,
+      "isDefault": true
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "type": "savings",
+      "currency": "KHR",
+      "number": "6579",
+      "balance": 4000000,
+      "isDefault": false
+    }
+  ],
+  "scheduledPayments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Rent",
+      "kind": "Standing order",
+      "currency": "USD",
+      "amount": 35000,
+      "date": "2026-10-20"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Electricity bill",
+      "kind": "Auto pay",
+      "currency": "KHR",
+      "amount": 186500,
+      "date": "2026-10-25"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Loan repayment",
+      "kind": "Due",
+      "currency": "USD",
+      "amount": 20000,
+      "date": "2026-11-01"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Mom",
+      "initials": "MK",
+      "color": "blue"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Sophea",
+      "initials": "SP",
+      "color": "yellow"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "name": "Landlord",
+      "initials": "LD",
+      "color": "green"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "name": "Electric",
+      "initials": "EC",
+      "color": "purple"
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "title": "0% fee transfers",
+      "titleKm": "ផ្ទេរមិនគិតកម្រៃ",
+      "validUntil": "2026-10-31",
+      "color": "blue"
+    },
+    {
+      "id": 2,
+      "title": "Earn 4.5% savings",
+      "titleKm": "ការប្រាក់សន្សំ",
+      "validUntil": "2026-12-31",
+      "color": "yellow"
+    }
+  ]
+}
