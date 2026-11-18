@@ -53,7 +53,9 @@ fun AppNavigation() {
                     )
                 }
                 NavigationKey.HomeScreen -> NavEntry(key){
-                    HomeScreen ()
+                    HomeScreen (
+                        onClickItem = {}
+                    )
                 }
 
                 else -> throw IllegalArgumentException("Unknown navigation key: $key")

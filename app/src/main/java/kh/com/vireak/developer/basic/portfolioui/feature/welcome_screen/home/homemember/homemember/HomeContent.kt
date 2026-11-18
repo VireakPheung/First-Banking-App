@@ -104,11 +104,11 @@ val fakeData = HomeData(
         BankAccount(3, 1, "savings", "KHR", "1190", 25600000, false)
     ),
     schedule = listOf(
-        ScheduledPayment(1, "Rent", "Standing order", "$", 35000, "2026-9-20"),
-        ScheduledPayment(2, "Electricity bill", "Auto pay", "៛", 186500, "2026-10-25"),
-        ScheduledPayment(3, "Internet", "Auto pay", "៛", 68000, "2026-11-21"),
-        ScheduledPayment(3, "Water", "Auto pay", "៛", 43000, "2026-12-21"),
-        ScheduledPayment(3, "Trash", "Auto pay", "៛", 10000, "2026-4-21"),
+        ScheduledPayment(1, "Rent", "Standing order", "USD", 35000, "2026-9-20"),
+        ScheduledPayment(2, "Electricity bill", "Auto pay", "KHR", 186500, "2026-10-25"),
+        ScheduledPayment(3, "Internet", "Auto pay", "KHR", 68000, "2026-11-21"),
+        ScheduledPayment(3, "Water", "Auto pay", "KHR", 43000, "2026-12-21"),
+        ScheduledPayment(3, "Trash", "Auto pay", "KHR", 10000, "2026-4-21"),
     ),
     favorites = listOf(
         Favorite(1, "Mom", "MK", "blue"),
